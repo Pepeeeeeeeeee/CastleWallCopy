@@ -2,7 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-/src/managers/DBConnect
 
 ### Eclipse ###
 .apt_generated
