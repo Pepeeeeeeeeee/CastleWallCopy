@@ -1,7 +1,6 @@
 package controllers;
 
 import models.Board;
-import models.Level;
 import models.Square;
 
 import java.util.*;
@@ -121,6 +120,8 @@ public class GameController {
             case 'X':
             case 'x':
                 return;
+            default:
+                System.err.println("Wrong input");
         }
     }
 }

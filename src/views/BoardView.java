@@ -15,9 +15,15 @@ public class BoardView {
         this.board = new Board();
         while(scanner.hasNext()){
             char action = scanner.next().charAt(0);
-            board.buildBoard(level, gameController);
-            gameController.action(action, board);
-            System.out.println(board);
+            if(action == 'x' || action == 'X'){
+                break;
+            }
+            else{
+                board.buildBoard(level, gameController);
+                gameController.action(action, board);
+                System.out.println(board);
+            }
         }
+
     }
 }

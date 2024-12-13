@@ -1,5 +1,5 @@
 package managers;
 
 public interface DBConnect {
-    String connectionUrl = "";
+    String connectionUrl = "jdbc:postgresql://localhost:5432/castleWallCopyPersonal?user=postgres&password=Student_1234";
 }

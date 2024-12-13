@@ -223,7 +223,6 @@ public class Board {
         }
         if(gameController.squaresWinCondition(squares, typeTranslator.toMap(board))){
             System.out.println("YOU PROBABLY WON!");
-            return;
         }
     }
 
