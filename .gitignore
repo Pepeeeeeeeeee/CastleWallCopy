@@ -1,6 +1,6 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/managers/DBConnect
+
 !**/src/main/**/out/
 !**/src/test/**/out/
 
